@@ -1,0 +1,21 @@
+.add-order-form {
+  &__list {
+    margin-top: 20px;
+    max-height: 400px !important;
+    overflow-y: auto;
+
+    &-product {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .ui.image {
+        margin-right: 20px !important;
+      }
+    }
+  }
+
+  .ui.primary.button {
+    margin-top: 50px;
+  }
+}

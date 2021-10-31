@@ -1,0 +1,17 @@
+.add-edit-user-form {
+  &__active,
+  &__staff {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .ui.checkbox {
+      margin-right: 20px;
+    }
+  }
+
+  .ui.primary.button {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,43 @@
+.select-table {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  padding: 0 20px;
+
+  &__content {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > h1 {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+
+    > h2 {
+      margin: 0;
+      font-weight: normal;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .ui.form {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    &-error {
+      margin-top: 10px;
+      color: #f00;
+    }
+  }
+}

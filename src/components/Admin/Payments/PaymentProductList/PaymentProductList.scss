@@ -1,0 +1,12 @@
+.payment-product-list {
+  &__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+    .iu.image {
+      margin-right: 30px !important;
+    }
+  }
+}

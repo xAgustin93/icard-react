@@ -1,0 +1,34 @@
+.table-admin {
+  position: relative;
+  flex: 0 1 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .ui.label {
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+  }
+
+  svg {
+    height: 200px;
+    width: 200px;
+
+    &.busy {
+      fill: #bb7900;
+    }
+    &.pending {
+      fill: #0094e3;
+    }
+    &.pending-payment {
+      fill: #008000;
+    }
+  }
+}

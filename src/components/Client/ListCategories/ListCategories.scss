@@ -1,0 +1,17 @@
+.list-categories-client {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  &__category {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #000;
+    margin: 10px 0;
+
+    .ui.image {
+      margin-right: 10px;
+    }
+  }
+}

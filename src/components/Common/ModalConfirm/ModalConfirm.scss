@@ -1,0 +1,21 @@
+.modal-confirm {
+  border-radius: 0 !important;
+
+  .header {
+    text-align: center;
+  }
+
+  .actions {
+    display: flex;
+    padding: 0 !important;
+    border: 0 !important;
+    margin-bottom: 10px;
+
+    .ui.button {
+      width: 50%;
+      margin: 0 !important;
+      border-radius: 0;
+      height: 50px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.client-layout-bg {
+  background-color: #d9d9d9;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 1em 0;
+}
+
+.client-layout {
+  background-color: #fff;
+  padding: 10px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}

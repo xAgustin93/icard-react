@@ -1,0 +1,23 @@
+.tables-list-admin {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__reaload {
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    right: 70px;
+  }
+
+  &__reaload-toggle {
+    position: absolute !important;
+    top: 38px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 20px;
+    }
+  }
+}

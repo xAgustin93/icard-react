@@ -1,0 +1,41 @@
+.order-history-item {
+  position: relative;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &.pending {
+    background-color: rgb(255, 220, 155);
+  }
+  &.delivered {
+    background-color: rgb(183, 255, 115);
+  }
+
+  &__time {
+    position: absolute;
+    top: -14px;
+    right: 10px;
+    background-color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #000;
+  }
+
+  &__product {
+    display: flex;
+    align-items: center;
+
+    .ui.image {
+      width: 80px;
+      margin-right: 20px;
+    }
+
+    p {
+      margin: 0;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
